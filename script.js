@@ -1,5 +1,7 @@
 let texto = document.querySelector("#nome")
 
-texto.textContent = "Fernanda"
+//texto.textContent = "Fernanda"
 
-prompt("Qual é o seu nome?")
+let nome = prompt("Qual é o seu nome?")
+
+texto.textContent = nome
